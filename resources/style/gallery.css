@@ -1,0 +1,32 @@
+.image_image > img {
+	border: 5px solid #FFFFFF;
+}
+
+.image_item {
+	display: inline;
+	float: left;
+	margin: 5px;
+	width: 300px;
+	height: 350px;
+}
+
+.image_item > div {
+	position: relative;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.content_list-tmp{
+	background-color: #828282;
+	border: 5px solid #FFFFFF;
+}
+
+.image_description {
+	width: 75%;
+	padding: 3px;
+	margin: 2px;
+}
+
+.image_creation_date{
+	margin: 2px;
+}
