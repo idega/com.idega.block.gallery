@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
   <extend>${base.project.dir}/block-dependencies.xml</extend>
-  <pomVersion>1</pomVersion>
+  <pomVersion>3</pomVersion>
   <artifactId>com.idega.block.gallery</artifactId>
   <name>idegaWeb Gallery Block</name>
   <currentVersion>0.1-SNAPSHOT</currentVersion>
   <inceptionYear>2005</inceptionYear>
   <shortDescription>This is the gallery module for idegaWeb</shortDescription>
-  </versions>
   <developers>
     <developer>
       <id>gummi</id>
