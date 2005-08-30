@@ -5,12 +5,8 @@
   <artifactId>com.idega.block.gallery</artifactId>
   <name>idegaWeb Gallery Block</name>
   <currentVersion>0.1-SNAPSHOT</currentVersion>
-  <organization />
   <inceptionYear>2005</inceptionYear>
   <shortDescription>This is the gallery module for idegaWeb</shortDescription>
-  <repository />
-  <versions>
-
   </versions>
   <developers>
     <developer>
