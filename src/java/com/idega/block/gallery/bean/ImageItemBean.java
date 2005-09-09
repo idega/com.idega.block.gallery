@@ -8,7 +8,7 @@ import com.idega.presentation.IWContext;
 import com.idega.slide.util.WebdavExtendedResource;
 
 /*
- * $Id: ImageItemBean.java,v 1.1 2005/06/30 14:06:38 gummi Exp $
+ * $Id: ImageItemBean.java,v 1.2 2005/09/09 22:08:14 gimmi Exp $
  * Created on 15.3.2005
  *
  * Copyright (C) 2005 Idega Software hf. All Rights Reserved.
@@ -18,10 +18,10 @@ import com.idega.slide.util.WebdavExtendedResource;
  */
 /**
  * 
- *  Last modified: $Date: 2005/06/30 14:06:38 $ by $Author: gummi $
+ *  Last modified: $Date: 2005/09/09 22:08:14 $ by $Author: gimmi $
  * 
  * @author <a href="mailto:gummi@idega.com">Gudmundur Agust Saemundsson</a>
- * @version $Revision: 1.1 $
+ * @version $Revision: 1.2 $
  */
 public class ImageItemBean extends ContentItemBean implements ContentItem {
 	
@@ -99,6 +99,9 @@ public class ImageItemBean extends ContentItemBean implements ContentItem {
 	
 	public String[] getToolbarActions(){
 		return new String[] {"preview"};
+	}
+
+	public void setDatasource(String datasource) {
 	}
 	
 }
